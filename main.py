@@ -46,9 +46,9 @@ put_body = {
 }
 
 
-post_endpoint = f"{pixela_endpoint}/{USERNAME}/graphs/{GRAPH_ID}"
-response = requests.post(url=post_endpoint, json=requests_body, headers=headers)
-print(response.text)
+# post_endpoint = f"{pixela_endpoint}/{USERNAME}/graphs/{GRAPH_ID}"
+# response = requests.post(url=post_endpoint, json=requests_body, headers=headers)
+# print(response.text)
 
 put_endpoint = f"{pixela_endpoint}/{USERNAME}/graphs/{GRAPH_ID}/20260921"
 
